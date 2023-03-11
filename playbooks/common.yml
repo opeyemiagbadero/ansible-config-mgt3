@@ -27,7 +27,7 @@
       apt:
         name: wireshark
         state: latest
-        
+
 
 #---------------------------------------------------------   
 
@@ -35,6 +35,7 @@
   hosts: webservers, nfs, db, lb
   become: yes
   tasks:
+
     - name: create a directory
       file:
         path: /home/sample
@@ -48,5 +49,6 @@
     - name: set timezone
       timezone:
         name: Africa/Lagos      
+
 
 
