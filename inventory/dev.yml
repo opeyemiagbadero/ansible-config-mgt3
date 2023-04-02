@@ -12,3 +12,6 @@
 
 [lb]
 172.31.22.231 ansible_ssh_user='ubuntu'
+
+[alb]
+172.31.22.231 ansible_ssh_user='ubuntu'
